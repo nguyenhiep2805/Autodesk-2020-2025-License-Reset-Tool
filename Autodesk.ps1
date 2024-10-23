@@ -1,7 +1,7 @@
 # Enable TLSv1.2 for compatibility with older clients
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor [System.Net.SecurityProtocolType]::Tls12
 
-$DownloadURL = 'https://raw.githubusercontent.com/nguyenhiep2805/Autodesk-license-reset-tool/main/Autodesk.cmd'
+$DownloadURL = 'https://raw.githubusercontent.com/nguyenhiep2805/Autodesk-2020-2025-License-Reset-Tool/main/Autodesk.cmd'
 
 $FilePath = "$env:TEMP\IAS.cmd"
 
